@@ -28,8 +28,8 @@ int main()
   
   cout<<"From greatest to least, they are: ";
   
-    for(auto i:vec){
-        cout<<i<<' ';
+    for(int i =0;i<(int)vec.size();i++){
+        cout<<vec[i]<<' ';
 }   
 cout<<'\n';
   return 0;
